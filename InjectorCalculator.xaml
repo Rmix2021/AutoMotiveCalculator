@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutomotivePerformanceCalculator.InjectorCalculator"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="InjectorCalculator"
+    BackgroundColor="#181818">
+    <ScrollView>
+        <VerticalStackLayout
+            Margin="10"
+            Spacing="25"
+            VerticalOptions="Center">
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="HorsePower"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="DesiredHorsepower"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter your end Horsepower Goal here"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Cylinders in Engine"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="CylinderCount"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter Your Engine Cylinder Count (ie 4,6,8)"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="The BSFC of your build"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="BSFC"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter Your BSFC (ie. .50 for N/A pump, .85 for turbo E85)"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Required Injector Size"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="InjectorSizeCC"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Your Injector Size cc/min"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Entry
+                x:Name="InjectorSizeLBS"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Your Injector Size lb/hr"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+
+            <Button
+                BackgroundColor="#0078d4"
+                Clicked="Button_Clicked"
+                Text="Calculate"
+                TextColor="White" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

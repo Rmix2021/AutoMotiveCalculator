@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutomotivePerformanceCalculator.CompressionRatioCalculator"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="CompressionRatioCalculator"
+    BackgroundColor="#181818">
+    <ScrollView>
+        <VerticalStackLayout
+            Margin="10"
+            Spacing="25"
+            VerticalOptions="Center">
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Cylinder bore in inches"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="CylinderBore"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter the Cylinder Bore in inches"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Engine Stroke in inches"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="EngineStroke"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter Engine Stroke here in inches"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Combustion Chamber Size in cc"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="CombustionChamberSize"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter combustion chamber size here in cc"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Piston dish in cc"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="PistonDish"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter piston dish size here "
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Deck Clearance"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="DeckClearance"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter deck Clearance in inches (ie .030) "
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Head Gasket bore "
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="HeadGasketBore"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter head gasket bore in inches (ie 4.070)"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Head Gasket Thickness in inches"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="HeadGasketThickness"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter head gasket thickness inches "
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Compression Ratio"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="CompressionRatio"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Compression Ratio"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Button
+                BackgroundColor="#0078d4"
+                Clicked="Button_Clicked"
+                Text="Calculate"
+                TextColor="White" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

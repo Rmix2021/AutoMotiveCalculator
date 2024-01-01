@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AutomotivePerformanceCalculator
+build_property.ProjectDir = D:\Coding Directory\C_Sharp\MauiProjects\CalculatorApp\AutomotivePerformanceCalculator\
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/CarburetorCalculator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.CarburetorCalculator.xaml
+build_metadata.AdditionalFiles.TargetPath = CarburetorCalculator.xaml
+build_metadata.AdditionalFiles.RelativePath = CarburetorCalculator.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/CompressionRatioCalculator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.CompressionRatioCalculator.xaml
+build_metadata.AdditionalFiles.TargetPath = CompressionRatioCalculator.xaml
+build_metadata.AdditionalFiles.RelativePath = CompressionRatioCalculator.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/FuelPumpCalculator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.FuelPumpCalculator.xaml
+build_metadata.AdditionalFiles.TargetPath = FuelPumpCalculator.xaml
+build_metadata.AdditionalFiles.RelativePath = FuelPumpCalculator.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/InjectorCalculator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.InjectorCalculator.xaml
+build_metadata.AdditionalFiles.TargetPath = InjectorCalculator.xaml
+build_metadata.AdditionalFiles.RelativePath = InjectorCalculator.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Coding Directory/C_Sharp/MauiProjects/CalculatorApp/AutomotivePerformanceCalculator/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AutomotivePerformanceCalculator.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

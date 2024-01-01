@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AutomotivePerformanceCalculator.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AutomotivePerformanceCalculator"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.FlyoutHeight="200">
+
+    <ShellContent
+        Title="Automotive Calculator"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Title="Injector Size Calculator"
+        ContentTemplate="{DataTemplate local:InjectorCalculator}"
+        Route="InjectorCalculator" />
+    <ShellContent
+        Title="CarburetorCalculator"
+        ContentTemplate="{DataTemplate local:CarburetorCalculator}"
+        Route="CarburetorCalculator" />
+    <ShellContent
+        Title="Fuel Pump Calculator"
+        ContentTemplate="{DataTemplate local:FuelPumpCalculator}"
+        Route="FuelPumpCalculator" />
+    <ShellContent
+        Title="Compression Ratio Calculator"
+        ContentTemplate="{DataTemplate local:CompressionRatioCalculator}"
+        Route="CompressionRatioCalculator" />
+
+</Shell>

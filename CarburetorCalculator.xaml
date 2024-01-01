@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutomotivePerformanceCalculator.CarburetorCalculator"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Carburetor Calculator"
+    BackgroundColor="#181818">
+    <ScrollView>
+        <VerticalStackLayout
+            Margin="10"
+            Spacing="25"
+            VerticalOptions="Center">
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Engine Displacement"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="EngineDisplacement"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter the Engine Displacement in Ci (ie. 454 )"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Engine Maximum RPM"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="MaxRpm"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter you Engines Maximum RPM (ie. Rev Limiter)"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Required Carburetor Size"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="CarburetorSize"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Your Recomended Carburetor Size"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+
+            <Button
+                BackgroundColor="#0078d4"
+                Clicked="Button_Clicked"
+                Text="Calculate"
+                TextColor="White" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

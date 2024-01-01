@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AutomotivePerformanceCalculator.FuelPumpCalculator"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="FuelPumpCalculator">
+    <ScrollView>
+        <VerticalStackLayout
+            Margin="10"
+            Spacing="25"
+            VerticalOptions="Center">
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="HorsePower"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="DesiredHorsepower"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter your final Horsepower Goal here"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Base Fuel Pressure"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="BaseFuelPressure"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Base fuel pressure in PSI"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Target boost pressure"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="TargetBoost"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter your target boost to achieve desired HP)"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="BSFC (ie. .50 for NA)"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="BSFC"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter Your bsfc here"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Fuel weight for GPH calculation"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="FuelWeight"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Enter the fuel weight here (ie. 93 octane 5.93)"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Required Fuel Pump size in Lb/Hr"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="FuelPumpSizeLBSHr"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Required Fuel Pump size lb/hr"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Required Fuel Pump size in gal/Hr"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="FuelPumpSizeGalhr"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Required Fuel Pump size gal/hr"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                Text="Required Fuel Pump size in LMN"
+                TextColor="#cccccc"
+                VerticalOptions="Center" />
+            <Entry
+                x:Name="FuelPumpSizeLMN"
+                BackgroundColor="#2a2a2a"
+                Placeholder="Required Fuel Pump size L/mn"
+                PlaceholderColor="#7c7c7c"
+                TextColor="#cccccc" />
+
+
+            <Button
+                BackgroundColor="#0078d4"
+                Clicked="Button_Clicked"
+                Text="Calculate"
+                TextColor="White" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
